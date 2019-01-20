@@ -12,3 +12,5 @@ Minor edits were made throughout. Many "magic numbers"/ non-dynamic elements wer
 Tested on iPhone 6 and 7, first game does not fill the screen. Second game is not centred and is cut off.  
 
 ![](uberJump.gif)
+
+![](uberJump.png)
