@@ -64,6 +64,8 @@ class EndGameScene: SKScene{
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // Transition back to the game on tap
         let gameScene = GameScene(size: size)
+        gameScene.scaleMode = .resizeFill
+        gameScene.anchorPoint = CGPoint(x: 0.05, y: 0.05)
         let reveal = SKTransition.fade(withDuration: 0.5)
         view?.presentScene(gameScene, transition: reveal)
         
